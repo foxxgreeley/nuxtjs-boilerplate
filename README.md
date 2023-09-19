@@ -9,12 +9,11 @@ A simple boilerplate for Nuxt 3 projects using DevTools, Tailwind CSS, Prettier,
 | Utility  | Description |
 | ------------- | ------------- |
 | [Nuxt Devtools](https://devtools.nuxt.com/) | for debugging and inspecting your Nuxt application. |
+| [Nuxt Icon Module](https://nuxt.com/modules/icon) | provides a dynamic component that can be passed any icon code from the [Icones Library](https://icones.js.org/) to render a SVG. |
 | [TailwindCSS](https://tailwindcss.com/)  | for utility-first CSS. |
 | [Prettier](https://prettier.io/) | is included and orders Tailwind classes using the [TailwindCSS Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) |
 | [ESLint](https://eslint.org/) | for linting JavaScript and TypeScript. |
 | [Inter Font](https://fonts.google.com/specimen/Inter) | is set as the default for this project (included head of `nuxt.config.ts`). |
-
-`<Icon name="NuxtIcon" />` is a dynamic component that can be passed any icon code from the [Icones Library](https://icones.js.org/) to render a SVG.
 
 ## Setup
 
