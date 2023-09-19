@@ -1,17 +1,19 @@
 # Nuxt Boilerplate (Tailwind + Essentials)
-![White Nuxt Logo.](https://nuxt.com/assets/design-kit/logo/icon-white.svg)
+<img src="https://nuxt.com/assets/design-kit/logo/icon-white.svg" alt="White Nuxt Logo" width="150">
 
 A simple boilerplate for Nuxt 3 projects using DevTools, Tailwind CSS, Prettier, and TypeScript.
 
-## Helpful Additions
+## Essentials
 
 [Nuxt Devtools](https://devtools.nuxt.com/) is pre-installed and enabled by default.
 
-The [Inter Font](https://fonts.google.com/specimen/Inter) is the default font for the project and is included head of the project.
+[TailwindCSS](https://tailwindcss.com/) is preinstalled and preconfigured.
 
-Prettier is included in the project and orders Tailwind classes using the [TailwindCSS Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+[Prettier](https://prettier.io/) is included in the project and orders Tailwind classes using the [TailwindCSS Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
-`<Icon name="NuxtIcon" />` is a custom component that can be passed any icon from the [Icones Library](https://icones.js.org/) to render an SVG.
+The [Inter Font](https://fonts.google.com/specimen/Inter) is set by default for the project (included head of `nuxt.config.ts`).
+
+`<Icon name="NuxtIcon" />` is a custom component that can be passed any icon from the [Icones Library](https://icones.js.org/) to render a SVG.
 
 ## Setup
 
