@@ -1,26 +1,15 @@
-# Nuxt Example
+# Nuxt Boilerplate
 
-Deploy your [Nuxt](https://nuxt.com) project to Vercel with zero configuration.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/nuxtjs&template=nuxtjs)
-
-_Live Example: https://nuxtjs-template.vercel.app_
-
-Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+A simple boilerplate for Nuxt.js 3 projects using DevTools, Tailwind CSS, and TypeScript.
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn
-
 # npm
 npm install
 
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
@@ -46,3 +35,13 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment#presets) for more information.
+
+## Useful Tools
+
+[Nuxt Devtools](https://devtools.nuxt.com/) is pre-installed and enabled by default.
+
+The [Inter Font](https://fonts.google.com/specimen/Inter) is the default font for the project and is included head of the project.
+
+Prettier is included in the project and orders Tailwind classes using the [TailwindCSS Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+
+`<Icon name="NuxtIcon" />` is a custom component that can be passed any icon from the [Icones Library](https://icones.js.org/) to render an SVG.
