@@ -4,6 +4,7 @@ export default defineNuxtConfig({
       modules: [
         '@nuxtjs/tailwindcss',
         'nuxt-icon',
+        '@nuxtjs/eslint-module',
       ],
       head: {
         link: [
