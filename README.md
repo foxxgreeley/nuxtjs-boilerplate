@@ -1,6 +1,5 @@
-# Nuxt Boilerplate
-
-![Nuxt Logo]](https://nuxt.com/assets/design-kit/logo/icon-white.svg)
+# Nuxt Boilerplate (Tailwind + Essentials)
+![White Nuxt Logo.](https://nuxt.com/assets/design-kit/logo/icon-white.svg)
 
 A simple boilerplate for Nuxt 3 projects using DevTools, Tailwind CSS, Prettier, and TypeScript.
 
