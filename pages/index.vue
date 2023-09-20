@@ -1,5 +1,6 @@
 <template>
     <div>
-        <h1 class="text-4xl font-black text-green-800">Home</h1>
+        <h1 class="pb-2 text-3xl font-bold text-green-800">Home</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
     </div>
 </template>

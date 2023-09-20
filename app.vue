@@ -1,8 +1,8 @@
 <template>
-    <div class="px-24">
+    <div class="container mx-auto px-6">
         <Nav />
 
-        <NuxtPage />
+        <NuxtPage class="pb-8 pt-4" />
 
         <Footer />
     </div>
