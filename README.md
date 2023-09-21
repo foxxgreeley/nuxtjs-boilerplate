@@ -1,7 +1,10 @@
 # Nuxt Boilerplate (Tailwind + Essentials)
 
-<img src="https://nuxt.com/assets/design-kit/logo/icon-white.svg#gh-dark-mode-only" alt="White Nuxt Logo" width="150">
-<img src="https://nuxt.com/assets/design-kit/logo/icon-black.svg#gh-light-mode-only" alt="White Nuxt Logo" width="150">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://nuxt.com/assets/design-kit/logo/icon-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://nuxt.com/assets/design-kit/logo/icon-black.svg">
+  <img alt="Nuxt Logo." src="https://nuxt.com/assets/design-kit/logo/icon-white.svg" width="150">
+</picture>
 
 
 A simple boilerplate for Nuxt 3 projects using DevTools, Tailwind CSS, Prettier, ESLint, and TypeScript.
