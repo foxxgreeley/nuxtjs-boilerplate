@@ -3,6 +3,8 @@
         <div class="container mx-auto max-w-screen-xl">
             <Nav />
 
+            <h1 class="pb-4 text-4xl font-bold">{{ $colorMode.preference }}</h1>
+
             <div class="my-10">
                 <NuxtPage />
             </div>
