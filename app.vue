@@ -1,8 +1,10 @@
 <template>
-    <div class="container mx-auto px-6">
+    <div class="container mx-auto max-w-screen-xl px-10">
         <Nav />
 
-        <NuxtPage class="pb-8 pt-4" />
+        <div class="md:my-12">
+            <NuxtPage />
+        </div>
 
         <Footer />
     </div>
