@@ -3,8 +3,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
     'nuxt-icon',
   ],
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'light',
+    classSuffix: '',
+  },
   app: {
     head: {
       link: [

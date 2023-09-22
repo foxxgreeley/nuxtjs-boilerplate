@@ -3,13 +3,14 @@
         <div class="text-content md:max-w-[65%]">
             <h1 class="pb-4 text-4xl font-bold">Nuxt Boilerplate+</h1>
             <p class="font-medium leading-7">Introducing Nuxt Boilerplate+: A carefully curated foundation for kickstarting your Nuxt 3 projects with essential tools like DevTools, Tailwind CSS, Prettier, ESLint, and TypeScript. Our fresh install includes only the most valuable Nuxt modules.</p>
-            <div class="mt-6 flex flex-row flex-wrap gap-4 text-base transition-all duration-200">
-                <button class="rounded-md border-2 border-gray-500 bg-white px-4 py-2 hover:bg-black hover:text-white">Get Started</button>
-                <button class="bg-white px-4 py-2 text-black hover:underline">Learn more<Icon class="ms-1" size="24" name="heroicons:arrow-small-right-20-solid" color="black" /></button>
+            <div class="mt-6 flex flex-row flex-wrap gap-4 text-base">
+                <button class="rounded-md border-2 border-gray-500 px-4 py-2">Get Started</button>
+                <button class="px-4 py-2 hover:underline">Learn more<Icon class="ms-1" size="24" name="heroicons:arrow-small-right-20-solid" color="black" /></button>
             </div>
         </div>
         <div class="flex min-w-[200px] items-center md:justify-center">
-            <img class="block w-48" src="https://nuxt.com/assets/design-kit/logo/icon-black.png" alt="nuxt-logo" />
+            <img class="block w-48" src="https://nuxt.com/assets/design-kit/logo/icon-black.png" alt="nuxt-logo" v-if="$colorMode && $colorMode.preference === 'light'" />
+            <img class="block w-48" src="https://nuxt.com/assets/design-kit/logo/icon-white.png" alt="nuxt-logo" v-else />
         </div>
     </div>
     <div class="my-16 flex-col flex-wrap">
