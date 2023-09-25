@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col-reverse flex-wrap md:flex-row md:justify-between">
         <div class="text-content md:max-w-[65%]">
-            <h1 class="pb-4 text-4xl font-bold">Nuxt Boilerplate+</h1>
+            <h1 class="text-4xl font-bold">Nuxt Boilerplate+</h1>
             <p class="font-medium leading-7">Introducing Nuxt Boilerplate+: A carefully curated foundation for kickstarting your Nuxt 3 projects with essential tools like DevTools, Tailwind CSS, Prettier, ESLint, and TypeScript. Our fresh install includes only the most valuable Nuxt modules.</p>
             <div class="mt-6 flex flex-row flex-wrap gap-4 text-base">
                 <button class="border-gray-500 rounded-md border-2 px-4 py-2">Get Started</button>
@@ -15,8 +15,8 @@
     </div>
 
     <div class="my-16 flex-col flex-wrap">
-        <h2 class="text-gray-600 text-sm font-bold">Typography</h2>
-        <h2 class="text-2xl font-bold">Inter</h2>
+        <h2 class="text-gray-600 font-bold">Typography</h2>
+        <h2 class="my-1.5 text-2xl font-bold">Inter</h2>
         <p class="leading-6">
             Inter is the default font of Boilerplate+. Inter is a versatile and modern typeface that has gained popularity for its exceptional readability and aesthetic appeal. Designed by Rasmus Andersson, Inter strikes a harmonious balance between sans-serif simplicity and subtle geometric shapes, making it suitable for a wide range of digital and print applications. <br /><br />
             Inter's extensive character set also supports multiple languages, making it an inclusive and accessible choice for global audiences.
@@ -24,8 +24,8 @@
     </div>
 
     <div class="my-16 flex-col flex-wrap">
-        <h2 class="text-gray-600 text-sm font-bold">Template</h2>
-        <h2 class="text-2xl font-bold">Blog Post</h2>
+        <h2 class="text-gray-600 font-bold">Template</h2>
+        <h2 class="my-1.5 text-2xl font-bold">Blog Post</h2>
         <p class="leading-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales pharetra tellus vel varius. Quisque ultrices dignissim leo, tincidunt fermentum arcu blandit eu. <br /><br />Nunc mi arcu, sagittis a ex sit amet, eleifend efficitur ligula. Praesent nec interdum arcu. Aenean et pharetra velit, vitae eleifend diam. Maecenas tincidunt odio sit amet nibh maximus suscipit. Quisque tristique ligula ac elit congue tempus. Duis ut purus nec tellus aliquet aliquet id at magna. Phasellus bibendum condimentum lorem sagittis interdum. Nunc ultricies nulla eu auctor feugiat. Vestibulum
             venenatis imperdiet ipsum in suscipit.<br /><br />
