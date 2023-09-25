@@ -1,10 +1,10 @@
 <template>
     <nav class="flex flex-row items-baseline justify-between py-4">
-        <div class="logo flex flex-row">
+        <div class="logo flex min-w-max flex-row">
             <nuxt-link to="/"><img class="block w-28" src="https://nuxt.com/assets/design-kit/logo/full-logo-black.png" alt="nuxt-logo" v-show="$colorMode && $colorMode.preference === 'light'" /></nuxt-link>
             <nuxt-link to="/"><img class="block w-28" src="https://nuxt.com/assets/design-kit/logo/full-logo-white.png" alt="nuxt-logo" v-show="$colorMode && $colorMode.preference === 'dark'" /></nuxt-link>
         </div>
-        <ul class="flex flex-row justify-center gap-10 text-center font-medium">
+        <ul class="flex flex-row flex-wrap justify-center gap-10 text-center font-medium">
             <li class="hover:underline" v-for="link in navLinks" :key="link.title">
                 <nuxt-link :to="link.path">{{ link.title }}</nuxt-link>
             </li>
