@@ -16,7 +16,7 @@
 
     <div class="my-16 flex-col flex-wrap">
         <h2 class="text-gray-600 font-bold">Typography</h2>
-        <h2 class="my-1.5 text-2xl font-bold">Inter</h2>
+        <h2 class="mb-2 mt-1 text-2xl font-bold">Inter</h2>
         <p class="leading-6">
             Inter is the default font of Boilerplate+. Inter is a versatile and modern typeface that has gained popularity for its exceptional readability and aesthetic appeal. Designed by Rasmus Andersson, Inter strikes a harmonious balance between sans-serif simplicity and subtle geometric shapes, making it suitable for a wide range of digital and print applications. <br /><br />
             Inter's extensive character set also supports multiple languages, making it an inclusive and accessible choice for global audiences.
@@ -24,8 +24,8 @@
     </div>
 
     <div class="my-16 flex-col flex-wrap">
-        <h2 class="text-gray-600 font-bold">Template</h2>
-        <h2 class="my-1.5 text-2xl font-bold">Blog Post</h2>
+        <h2 class="text-gray-600 text-md font-bold">Template</h2>
+        <h2 class="mb-2 mt-1 text-2xl font-bold">Blog Post</h2>
         <p class="leading-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales pharetra tellus vel varius. Quisque ultrices dignissim leo, tincidunt fermentum arcu blandit eu. <br /><br />Nunc mi arcu, sagittis a ex sit amet, eleifend efficitur ligula. Praesent nec interdum arcu. Aenean et pharetra velit, vitae eleifend diam. Maecenas tincidunt odio sit amet nibh maximus suscipit. Quisque tristique ligula ac elit congue tempus. Duis ut purus nec tellus aliquet aliquet id at magna. Phasellus bibendum condimentum lorem sagittis interdum. Nunc ultricies nulla eu auctor feugiat. Vestibulum
             venenatis imperdiet ipsum in suscipit.<br /><br />
